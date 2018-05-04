@@ -1,0 +1,13 @@
+name: here-be-taverns-api
+version: 0.1.0
+
+authors:
+  - Adam Waselnuk <adam.waselnuk@gmail.com>
+
+targets:
+  here-be-taverns-api:
+    main: src/here-be-taverns-api.cr
+
+crystal: 0.24.2
+
+license: MIT
