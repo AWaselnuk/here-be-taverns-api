@@ -1,6 +1,11 @@
 require "./here-be-taverns-api/*"
+require "kemal"
 
 # TODO: Write documentation for `Here::Be::Taverns::Api`
 module Here::Be::Taverns::Api
-  # TODO: Put your code here
+  get "/" do
+    "Hello Friend"
+  end
+
+  Kemal.run
 end
